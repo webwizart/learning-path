@@ -379,7 +379,7 @@ Handling multiple inputs
 - Don’t use Inheritance 
 - To reuse non-UI functionality between components extract it into a JavaScript Module
 
-## Think in React
+# Think in React
 Start with a `Mock` and a `JSON Structure`. 
 - Break the UI into a Component Hierarchy
     - Draw some boxes in the mock to define components and name them
@@ -409,3 +409,12 @@ Start with a `Mock` and a `JSON Structure`.
     - Now everything is rendered via props
     - Now lift state up where needed 
     - Refactor to functional components if possible 
+
+# Testing
+For testing you have to digg around because all the docs refer to each other. We will need the following tools:
+- test runner - *Jest* - [https://jestjs.io/docs/en/expect](https://jestjs.io/docs/en/expect)
+- testing utility - *Enzyme* - [https://airbnb.io/enzyme/](https://airbnb.io/enzyme/)
+
+To construct you will need to build it up as followed:
+[jest](enzyme ).[jest] 
+expect(wrapper).toBeTruthy();
